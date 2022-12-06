@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-dark top-bar">
+        <div class="container-fluid nav-container">
+            <button class="toggler-left menu" id="menu" type="submit"> </button>   
+
+            <div class="collapse navbar-collapse " id="navbarSupportedContent"> 
+
+            </div>
+            <div class="d-flex right-btns">
+                <button class="toggler-btn minimize-btn" id="minimizeBtn" title="Minimize" type="submit"></button>
+                    
+                <button class="toggler-btn maximize-btn" id="maximizeBtn" title="Maximize" type="submit" ></button>
+                    
+                <button class="toggler-btn close-btn" id="closeBtn" title="Close" type="submit"></button>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+    
+    <!-- Content Start -->
+    
+        <div class="row d-flex mt-3 justify-content-center">
+            <div class="col-md-6 d-flex justify-content-between px-5">
+                <input
+                  type="text"
+                  class="form-control mr-1 w-85"
+                  id="todoValue"
+                />
+                <button class="btn btn-success mr-1" id="addBtn">Ekle</button>
+              </div>
+        </div>
+
+        <div class="container main-container mt-3">
+            <div class="todo-container container"></div>
+            <div class="alert-container row justify-content-center px-5">
+              <div class="alert alert-warning col-md-6 ">
+                <b>Herhangi bir TODO bulunmamaktadır!!!</b>
+              </div>
+            </div>
+          </div>
+          <footer class="navbar fixed-bottom navbar-light bg-light">
+              <span>Toplam Kayıt Sayısı : <b class="total-count-container"></b></span>
+          </footer>
+     
+    <!-- Content End -->
+
+    <script src="../assets/js/renderer.js"></script>
+</body>
+</html>

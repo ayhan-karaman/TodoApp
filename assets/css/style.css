@@ -1,0 +1,82 @@
+
+.toggler-left{
+    width: 45px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.toggler-left:hover{
+    background-color: #272C36;
+}
+.toggler-left:active{
+    background-color: #4F9FEE;
+}
+.menu{
+    background-image: url('../../assets/icons/hamburger.png');
+}
+
+.delete-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    background-position: center;
+    transition: 0.2s;
+    cursor: pointer;
+    background-image: url('../../assets/icons/trash.png');
+    background-size: 18px;
+}
+
+
+
+.right-btns{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 40px;
+}
+.right-btns > .toggler-btn{
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-color:transparent;
+    background-position: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.right-btns > .toggler-btn:hover{
+    background-color: #272C36;
+}
+.right-btns > .toggler-btn:active{
+    background-color: #4F9FEE;
+}
+.right-btns > .minimize-btn{
+    background-image: url('../../assets/icons/minimize.png') ;
+    background-size: 18px;
+}
+.right-btns > .maximize-btn{
+    background-image: url('../../assets/icons/maximize.png');
+    background-size: 18px;
+}
+.right-btns > .restore-btn{
+    background-image: url('../../assets/icons/unmaximize.png');
+    background-size: 18px;
+}
+.right-btns > .close-btn{
+    background-image: url('../../assets/icons/close.png');
+    background-size: 18px;
+}
+.w-85{
+    width: 85% !important;
+}

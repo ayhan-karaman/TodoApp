@@ -1,0 +1,20 @@
+{
+  "name": "todoapp",
+  "productName": "Karaman Todo App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Ayhan Karaman",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "mongoose": "^6.7.5"
+  }
+}
